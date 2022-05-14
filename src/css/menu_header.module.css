@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+:root {
+  --border-menu: #b39ddb;
+  --background-menu: #ff4949;
+}
+
+.container {
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  width: 140px;
+  height: 160px;
+  background-color: var(--background-menu);
+  border-radius: 4px;
+
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.container_arrow_up {
+  width: 100%;
+  position: relative;
+}
+
+.arrow_up {
+  position: absolute;
+  top: -6px;
+  height: 8px;
+  width: 8px;
+  right: 18px;
+  color: var(--background-menu);
+}
+
+.menu_options {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  overflow: hidden;
+}
+
+.menu_options:first-child {
+  margin-top: 8px;
+}
+
+.menu_options li {
+  width: 100%;
+  flex: 1;
+  padding-left: 4px;
+  color: #fafafa;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu_options li div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.menu_options li:hover {
+  cursor: pointer;
+  background-color: #d32f2f;
+}
+
+.menu_specific_option {
+}
+
+.menu_specific_option i {
+  width: 20%;
+  margin-left: 8px;
+}
+
+.menu_specific_option p {
+  margin-left: 4px;
+}
