@@ -7,12 +7,17 @@
 }
 
 .titulo {
+  height: 40px;
   margin: 0;
   margin-left: 18px;
   font-size: 22px;
   font-weight: bold;
   font-family: "Gloria Hallelujah", cursive;
   color: #fafafa;
+}
+
+.titulo:hover{
+  cursor: pointer;
 }
 
 .navbar {

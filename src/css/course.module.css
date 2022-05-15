@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+}
+
+.module_content{
+    max-width: 775px;
+    flex:8;
+    background-color: brown;
+}
+
+.module_list{
+    flex: 2;
+}
