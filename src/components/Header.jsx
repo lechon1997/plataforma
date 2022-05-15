@@ -16,7 +16,7 @@ const Header = () => {
           <div onClick={onClickMenu} className={styles.container_icons}>
             <i className={`fas fa-user-circle fa-xl`}></i>
             <div className={styles.down_arrow}>
-              <i class="fa-solid fa-sort-down fa-sm"></i>
+              <i className="fa-solid fa-sort-down fa-sm"></i>
             </div>
           </div>
         </div>

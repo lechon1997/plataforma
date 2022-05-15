@@ -10,7 +10,7 @@
   top: 8px;
   right: 0px;
   width: 140px;
-  height: 160px;
+  height: 200px;
   background-color: var(--background-menu);
   border-radius: 4px;
 
@@ -32,6 +32,10 @@
   color: var(--background-menu);
 }
 
+.container_menu_options {
+  height: calc(100% - 8px); /*8px del margin top del primer item del menu*/
+}
+
 .menu_options {
   margin: 0;
   padding: 0;
@@ -39,7 +43,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  height: 60%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -50,6 +54,7 @@
 .menu_options li {
   width: 100%;
   flex: 1;
+  max-height: 30px;
   padding-left: 4px;
   color: #fafafa;
   font-weight: 500;
