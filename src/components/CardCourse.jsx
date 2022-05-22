@@ -8,12 +8,11 @@ const CardCourse = () => {
   }
 
   return <div className={styles.card} onClick={onClickNavigate}>
+    <div className={styles.value} ><span>$3500</span></div>
     <div className={styles.image_course}>
-
     </div>
-    <div className={styles.title_course}>
-      <h2>Introducción a la programación</h2>
-      <p>Valor: <span>$3500</span></p>
+    <div className={styles.detail_course_content}>
+      <h2>Introducción a la programación con C++</h2>
     </div>
   </div>;
 };

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 .card{
+    position: relative;
     width: 260px;
-    height: 250px;
+    height: auto;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -14,34 +17,52 @@
 
 .image_course{
     width:100%;
-    height: 80%;
+    height: 250px;
     background-image: url("../static/images/course_c.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
 }
 
-.title_course{
+.detail_course_content{
     width: 100%;
     height: 20%;
+    min-height: 60px;
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
-.title_course h2{
-    margin: 0;
-    margin-top: 4px;
+.detail_course_content h2{
+    text-align: center;
+    margin: 4px;
     font-size: 14px;
     font-weight: 600;
     
 }
 
-.title_course p {
+.detail_course_content p {
     margin: 0;
     margin-top: 4px;
+    margin-left: 4px;
     font-size: 13px;
 }
 
-.title_course p span {
+.value{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
+    width: 65px;
+    height: 24px;
+    background-color: white;
+    text-align: center;
+}
+
+.value span {
     color:#00C853;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
